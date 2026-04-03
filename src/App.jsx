@@ -13,8 +13,8 @@ class App extends Component {
       <div className="App">
 
         <Mycars
-          titre={this.state.titre}
-          color={this.state.color}
+          titrededavy={this.state.titre}
+          colordedavy={this.state.color}
         />
       </div>
     )
