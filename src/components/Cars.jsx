@@ -1,5 +1,5 @@
 import React from 'react';
-import Wrapper from './wrapper';
+import Wrapper from './Wrapper';
 
 const Cars = ({children, color}) => {
     // console.log(props) 
@@ -11,7 +11,7 @@ const Cars = ({children, color}) => {
             <p>Marque: {children}</p>
             <p>{colorInfo}</p>
         </Wrapper>
-    ) : <p>Pas de data</p>
+    ) 
 }
 
 export default Cars
