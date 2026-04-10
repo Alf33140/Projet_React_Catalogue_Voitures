@@ -1,23 +1,16 @@
-import { Component } from 'react';
-import Mycars from './components/Mycars';
+import React from 'react';
+import Maman from './components/Maman';
 import './App.css';
-import Welcome from './components/Welcome';
+import Toto from './components/Toto';
 
-class App extends Component {
-
-  state = {
-    titre: 'Mon Catalogue Voitures'
-  }
-
-  render() {
-    return (
-      <div className='App'>
-        <Welcome />
-            <Mycars title={this.state.titre} />
-        
-      </div>
-    )
-  }
+function App() {
+  return (
+    <div>
+      <Maman />
+     
+    </div>
+     
+  );
 }
 
-export default App;
+export default App; 
